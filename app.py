@@ -9,7 +9,7 @@ from datetime import datetime
 
 # --- تنظیمات اولیه ---
 logging.basicConfig(level=logging.ERROR)
-client = Client("2") 
+client = Client("parsa") 
 db_lock = threading.Lock()
 
 # --- دیتابیس ---
